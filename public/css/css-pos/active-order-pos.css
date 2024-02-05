@@ -1,0 +1,24 @@
+.active-order-wrapper {
+    margin: 16px 35px 0px 32px;
+}
+
+.header-active-order {
+    margin-bottom: 24px;
+}
+
+.table-head {
+    background: #fff7f2;
+    border-bottom: none;
+}
+
+.table-row-bordered {
+    border-bottom: 1px solid #ededed;
+}
+
+.table-head th {
+    padding: 14px 16px;
+}
+
+.table-row-bordered td {
+    padding: 14px 16px;
+}

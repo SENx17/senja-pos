@@ -1,0 +1,65 @@
+.modal-header-pembayaran {
+    margin: 12px 12px;
+}
+
+.close-position {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    margin: 0;
+}
+
+.modal-wrapper-bayar-berhasil {
+    min-width: 670px;
+    height: 520px;
+
+    box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.12) !important;
+    border-radius: 6px !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+
+    overflow-y: none;
+    background: #fff;
+}
+
+.body-pembayaran-berhasil-wrapper {
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.pembayaran-berhasil-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.5rem;
+}
+
+.total-pembayaran-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+}
+
+.jenis-pembayaran-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+.button-group-pembayaran {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.938rem;
+}
+
+.input-email {
+    border: 1px solid #f16622 !important;
+}

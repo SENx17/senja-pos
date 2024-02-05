@@ -1,0 +1,47 @@
+.active-shift-detail-wrapper {
+    margin-bottom: 32px;
+}
+
+.active-shift-detail-header {
+    margin-bottom: 32px;
+}
+
+.active-shift-content-body {
+    width: 797px;
+    margin: 0px auto;
+}
+
+.active-shift-user {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.active-shift-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.active-shift-subcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.button-akhiri-shift-wrapper {
+    display: flex;
+    justify-content: end;
+
+    margin-top: 32px;
+}
+
+.inner-subcontent li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 0px 0px 8px;
+}

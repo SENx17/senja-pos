@@ -1,0 +1,155 @@
+/* .sidebar-order-detail {
+    position: fixed;
+    width: 0px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+} */
+
+/* .sidebar-order-detail.isOpened {
+    position: fixed;
+    width: 423px;
+    background: #fff;
+
+    box-shadow: -1px 0px 2px 0px rgba(200, 200, 200, 0.12);
+} */
+
+.sidebar-order.show,
+.sidebar-order.showing,
+.sidebar-order.hiding {
+    position: fixed;
+    width: 423px;
+    z-index: 0;
+    padding: 0px;
+    align-items: center;
+}
+
+.sidebar-order-detail-content {
+    width: 375px;
+    margin: 90px 0px;
+}
+
+.button-order-detail-wrapper {
+    display: flex;
+    width: inherit;
+    margin-top: 16px;
+}
+
+.button-meja {
+    display: flex;
+    padding: 8px 6px;
+    align-items: center;
+    justify-content: center;
+
+    width: inherit;
+
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #ededed;
+    background: #f5f5f5;
+}
+
+.button-pelanggan {
+    display: flex;
+    padding: 8px 6px;
+    align-items: center;
+    justify-content: center;
+
+    width: inherit;
+
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid #ededed;
+    background: #f5f5f5;
+}
+
+.line-divider-order-detail {
+    width: inherit;
+    height: 1.25px;
+    align-self: stretch;
+    margin: 26px 0px;
+    background: #ededed;
+}
+
+.ordered-detail {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ordered-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.payment-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 8px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tax {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rounding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grand-total-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 32px;
+}
+
+.line-divider-grand-total {
+    /* width: 375px; */
+    height: 1.25px;
+    align-self: stretch;
+    margin-bottom: 16px;
+    background: #ededed;
+}
+
+.grand-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-order-detail-group {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0px auto;
+
+    gap: 16px;
+}
+
+.button-cetak-bayar {
+    width: inherit;
+
+    display: flex;
+    gap: 16px;
+}

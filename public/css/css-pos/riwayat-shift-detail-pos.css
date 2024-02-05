@@ -1,0 +1,55 @@
+.riwayat-shift-detail-wrapper {
+    margin: 16px 0px 32px 32px;
+}
+
+.riwayat-shift-detail-content {
+    width: 797px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.shift-detail-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.shift-detail-subcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shift-detail-subcontent2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-terjual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total-terjual {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sold-item-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.payment-detail-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}

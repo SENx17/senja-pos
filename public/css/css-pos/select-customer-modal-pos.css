@@ -1,0 +1,45 @@
+.modal-pilihPelanggan-wrapper {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-select-pelanggan-wrapper {
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    align-self: center;
+
+    gap: 40px;
+}
+
+.search-pelanggan-wrapper {
+    width: 559px;
+}
+
+.list-pelanggan-wrapper {
+    max-height: 360px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #f16622 #fff;
+    scroll-behavior: smooth;
+}
+
+.table-pelanggan-bordered {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #ededed;
+    padding: 10px 0px;
+}
+
+.table-pelanggan-bordered td {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    border-bottom-width: 0px;
+    padding: 0;
+}

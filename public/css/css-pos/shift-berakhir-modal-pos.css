@@ -1,0 +1,32 @@
+.modal-shift-berakhir-wrapper {
+    min-width: 702px;
+    box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.12) !important;
+    border-radius: 6px !important;
+
+    overflow-y: scroll;
+    background: #fff;
+
+    --bs-modal-border-color: rgba(255, 255, 255, 0);
+    --bs-modal-border-radius: border-radius: 6px;
+}
+
+.shift-berakhir-wrapper {
+    width: 534px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    
+    margin: 0px auto;
+}
+
+.shift-berakhir-content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.shift-berakhir-content {
+    display: flex;
+    justify-content: space-between;
+}

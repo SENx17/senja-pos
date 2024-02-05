@@ -10,6 +10,13 @@ use App\Livewire\Composition\Item;
 use App\Livewire\Composition\Recipe;
 use App\Livewire\Outlet\AddOutlet;
 use App\Livewire\Outlet\ListOutlet;
+use App\Livewire\PointOfSalesKasir\Page\AktifOrderPos;
+use App\Livewire\PointOfSalesKasir\Page\MenuOrder;
+use App\Livewire\PointOfSalesKasir\Page\MutasiPos;
+use App\Livewire\PointOfSalesKasir\Page\RiwayatShiftDetail;
+use App\Livewire\PointOfSalesKasir\Page\RiwayatShiftPos;
+use App\Livewire\PointOfSalesKasir\Page\ShiftAktifDetail;
+use App\Livewire\PointOfSalesKasir\Page\ShiftAktifPos;
 use App\Livewire\Purchase\CreateSupplier;
 use App\Livewire\Purchase\Supplier;
 use App\Livewire\Warehouse\AddCategory;
@@ -74,4 +81,11 @@ Route::get('outlet/list-outlet/add-outlet', AddOutlet::class)->name('add-outlet'
 Route::get('supplier', Supplier::class)->name('supplier');
 Route::get('supplier/create-supplier', CreateSupplier::class)->name('create-supplier');
 
-
+// Point Of Sales Kasir
+Route::get('/pos/menu', MenuOrder::class)->name('menu');
+Route::get('/pos/active-order', AktifOrderPos::class)->name('active-order');
+Route::get('/pos/active-shift', ShiftAktifPos::class)->name('active-shift');
+Route::get('/pos/active-shift-detail', ShiftAktifDetail::class)->name('active-shift-detail');
+Route::get('/pos/riwayat-shift', RiwayatShiftPos::class)->name('riwayat-shift');
+Route::get('/pos/riwayat-shift-detail', RiwayatShiftDetail::class)->name('riwayat-shift-detail');
+Route::get('/pos/mutasi', MutasiPos::class)->name('mutasi');

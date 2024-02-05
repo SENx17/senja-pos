@@ -1,0 +1,26 @@
+.header-pos {
+    margin: 16px 0px;
+}
+
+.pos-text-wrapper {
+    margin: 0px 20px 24px 32px;
+}
+
+.pos-category-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11.5px;
+    margin: 0 0 32px 2rem;
+}
+
+.button-not-selected:focus {
+    color: #f16622;
+    padding: 6px 16px;
+
+    font-family: "Poppins 500";
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 6px;
+    border: 1px solid #f2c6af;
+    background: #fff7f2;
+}

@@ -1,0 +1,33 @@
+.header-shift-body-wrapper {
+    display: flex;
+    height: 76px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid #ededed;
+    background: #f16622;
+}
+
+.modal-akhiriShift-wrapper {
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+}
+
+.header-shift-body-wrapper i {
+    position: absolute;
+    right: 24px;
+}
+
+.body-akhiri-shift-wrapper {
+    margin: 0px auto;
+    width: 527px;
+}
+
+.saldo-akhir-shift,
+.selisih-akhir-shift {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
